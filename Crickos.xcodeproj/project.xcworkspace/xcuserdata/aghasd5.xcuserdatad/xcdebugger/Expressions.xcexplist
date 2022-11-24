@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in PlayerDetailView.body.getter:PlayerDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tempObj.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "property wrapper backing initializer of SampleData.api:SampleData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "api">
+            </PersistentString>
+            <PersistentString
+               value = "api.playerBriefInfo[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SampleData.getPlayerDetails(var:):SampleData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playerData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SinglePlayerInfoModel.init(from:):PlayerBriefInfo.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerDetailView.body.getter:PlayerDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mplayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in PlayerDetailView.body.getter:PlayerDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mplayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SampleData.body.getter:SampleData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "api">
+            </PersistentString>
+            <PersistentString
+               value = "playerData">
+            </PersistentString>
+            <PersistentString
+               value = "showCareerData">
+            </PersistentString>
+            <PersistentString
+               value = "api.playerBriefInfo[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SampleData.api.getter:SampleData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "api.playerBriefInfo[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mach_msg2_trap:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "playerData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SampleData.body.getter:SampleData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playerData">
+            </PersistentString>
+            <PersistentString
+               value = "showCareerData">
+            </PersistentString>
+            <PersistentString
+               value = "playerData.career">
+            </PersistentString>
+            <PersistentString
+               value = "playerData.career[0]">
+            </PersistentString>
+            <PersistentString
+               value = "dataLoaded">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

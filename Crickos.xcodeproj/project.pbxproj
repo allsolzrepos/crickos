@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1C3BB429293FE900A3859D /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C3BAA29293FE700A3859D /* Preview Content */; };
+		7D1C3BB529293FE900A3859D /* SampleAPIDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C3BAB29293FE800A3859D /* SampleAPIDataView.swift */; };
+		7D1C3BB629293FE900A3859D /* TeamDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C3BAC29293FE800A3859D /* TeamDetail.swift */; };
+		7D1C3BBB2929445100A3859D /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C3BBA2929445100A3859D /* PlayerDetailView.swift */; };
+		7DCEAF9E292B0556006558E8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEAF9D292B0556006558E8 /* SampleData.swift */; };
+		7DCFE92429268403003AE346 /* CrickosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE92329268403003AE346 /* CrickosApp.swift */; };
+		7DCFE92629268403003AE346 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE92529268403003AE346 /* ContentView.swift */; };
+		7DCFE92829268405003AE346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFE92729268405003AE346 /* Assets.xcassets */; };
+		7DCFE92B29268405003AE346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFE92A29268405003AE346 /* Preview Assets.xcassets */; };
+		7DCFE93B2926848F003AE346 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9312926848F003AE346 /* Countries.swift */; };
+		7DCFE93C2926848F003AE346 /* TeamDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9322926848F003AE346 /* TeamDetail.swift */; };
+		7DCFE93D2926848F003AE346 /* GetCountriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9332926848F003AE346 /* GetCountriesData.swift */; };
+		7DCFE93E2926848F003AE346 /* CountiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9342926848F003AE346 /* CountiesList.swift */; };
+		7DCFE93F2926848F003AE346 /* SampleAPIDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9352926848F003AE346 /* SampleAPIDataView.swift */; };
+		7DCFE9402926848F003AE346 /* PlayerBriefInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9362926848F003AE346 /* PlayerBriefInfo.swift */; };
+		7DCFE9412926848F003AE346 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9372926848F003AE346 /* ImageLoader.swift */; };
+		7DCFE9422926848F003AE346 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9382926848F003AE346 /* AsyncImage.swift */; };
+		7DCFE9432926848F003AE346 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9392926848F003AE346 /* EnvironmentValues+ImageCache.swift */; };
+		7DCFE9442926848F003AE346 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE93A2926848F003AE346 /* ImageCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D1C3BAA29293FE700A3859D /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		7D1C3BAB29293FE800A3859D /* SampleAPIDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAPIDataView.swift; sourceTree = "<group>"; };
+		7D1C3BAC29293FE800A3859D /* TeamDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetail.swift; sourceTree = "<group>"; };
+		7D1C3BBA2929445100A3859D /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		7DCEAF9D292B0556006558E8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		7DCFE92029268403003AE346 /* Crickos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crickos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCFE92329268403003AE346 /* CrickosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrickosApp.swift; sourceTree = "<group>"; };
+		7DCFE92529268403003AE346 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DCFE92729268405003AE346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DCFE92A29268405003AE346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DCFE9312926848F003AE346 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		7DCFE9322926848F003AE346 /* TeamDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetail.swift; sourceTree = "<group>"; };
+		7DCFE9332926848F003AE346 /* GetCountriesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountriesData.swift; sourceTree = "<group>"; };
+		7DCFE9342926848F003AE346 /* CountiesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountiesList.swift; sourceTree = "<group>"; };
+		7DCFE9352926848F003AE346 /* SampleAPIDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAPIDataView.swift; sourceTree = "<group>"; };
+		7DCFE9362926848F003AE346 /* PlayerBriefInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBriefInfo.swift; sourceTree = "<group>"; };
+		7DCFE9372926848F003AE346 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		7DCFE9382926848F003AE346 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		7DCFE9392926848F003AE346 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		7DCFE93A2926848F003AE346 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DCFE91D29268403003AE346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCEAF9F292B0597006558E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DCFE9362926848F003AE346 /* PlayerBriefInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DCFE91729268403003AE346 = {
+			isa = PBXGroup;
+			children = (
+				7DCFE92229268403003AE346 /* Crickos */,
+				7DCFE92129268403003AE346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCFE92129268403003AE346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCFE92029268403003AE346 /* Crickos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DCFE92229268403003AE346 /* Crickos */ = {
+			isa = PBXGroup;
+			children = (
+				7DCEAF9F292B0597006558E8 /* Models */,
+				7D1C3BAA29293FE700A3859D /* Preview Content */,
+				7D1C3BAB29293FE800A3859D /* SampleAPIDataView.swift */,
+				7DCEAF9D292B0556006558E8 /* SampleData.swift */,
+				7D1C3BAC29293FE800A3859D /* TeamDetail.swift */,
+				7D1C3BBA2929445100A3859D /* PlayerDetailView.swift */,
+				7DCFE9382926848F003AE346 /* AsyncImage.swift */,
+				7DCFE9342926848F003AE346 /* CountiesList.swift */,
+				7DCFE9312926848F003AE346 /* Countries.swift */,
+				7DCFE9392926848F003AE346 /* EnvironmentValues+ImageCache.swift */,
+				7DCFE9332926848F003AE346 /* GetCountriesData.swift */,
+				7DCFE93A2926848F003AE346 /* ImageCache.swift */,
+				7DCFE9372926848F003AE346 /* ImageLoader.swift */,
+				7DCFE9352926848F003AE346 /* SampleAPIDataView.swift */,
+				7DCFE9322926848F003AE346 /* TeamDetail.swift */,
+				7DCFE92329268403003AE346 /* CrickosApp.swift */,
+				7DCFE92529268403003AE346 /* ContentView.swift */,
+				7DCFE92729268405003AE346 /* Assets.xcassets */,
+				7DCFE92929268405003AE346 /* Preview Content */,
+			);
+			path = Crickos;
+			sourceTree = "<group>";
+		};
+		7DCFE92929268405003AE346 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DCFE92A29268405003AE346 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DCFE91F29268403003AE346 /* Crickos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCFE92E29268405003AE346 /* Build configuration list for PBXNativeTarget "Crickos" */;
+			buildPhases = (
+				7DCFE91C29268403003AE346 /* Sources */,
+				7DCFE91D29268403003AE346 /* Frameworks */,
+				7DCFE91E29268403003AE346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crickos;
+			productName = Crickos;
+			productReference = 7DCFE92029268403003AE346 /* Crickos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCFE91829268403003AE346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7DCFE91F29268403003AE346 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DCFE91B29268403003AE346 /* Build configuration list for PBXProject "Crickos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DCFE91729268403003AE346;
+			productRefGroup = 7DCFE92129268403003AE346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCFE91F29268403003AE346 /* Crickos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DCFE91E29268403003AE346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C3BB429293FE900A3859D /* Preview Content in Resources */,
+				7DCFE92B29268405003AE346 /* Preview Assets.xcassets in Resources */,
+				7DCFE92829268405003AE346 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCFE91C29268403003AE346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCFE9422926848F003AE346 /* AsyncImage.swift in Sources */,
+				7D1C3BBB2929445100A3859D /* PlayerDetailView.swift in Sources */,
+				7D1C3BB629293FE900A3859D /* TeamDetail.swift in Sources */,
+				7DCFE92629268403003AE346 /* ContentView.swift in Sources */,
+				7D1C3BB529293FE900A3859D /* SampleAPIDataView.swift in Sources */,
+				7DCFE9402926848F003AE346 /* PlayerBriefInfo.swift in Sources */,
+				7DCFE93C2926848F003AE346 /* TeamDetail.swift in Sources */,
+				7DCEAF9E292B0556006558E8 /* SampleData.swift in Sources */,
+				7DCFE93F2926848F003AE346 /* SampleAPIDataView.swift in Sources */,
+				7DCFE93D2926848F003AE346 /* GetCountriesData.swift in Sources */,
+				7DCFE9442926848F003AE346 /* ImageCache.swift in Sources */,
+				7DCFE9412926848F003AE346 /* ImageLoader.swift in Sources */,
+				7DCFE93B2926848F003AE346 /* Countries.swift in Sources */,
+				7DCFE92429268403003AE346 /* CrickosApp.swift in Sources */,
+				7DCFE9432926848F003AE346 /* EnvironmentValues+ImageCache.swift in Sources */,
+				7DCFE93E2926848F003AE346 /* CountiesList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DCFE92C29268405003AE346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DCFE92D29268405003AE346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DCFE92F29268405003AE346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Crickos/Preview Content\"";
+				DEVELOPMENT_TEAM = X74F9NBK3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allsolz.Crickos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DCFE93029268405003AE346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Crickos/Preview Content\"";
+				DEVELOPMENT_TEAM = X74F9NBK3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allsolz.Crickos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DCFE91B29268403003AE346 /* Build configuration list for PBXProject "Crickos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCFE92C29268405003AE346 /* Debug */,
+				7DCFE92D29268405003AE346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCFE92E29268405003AE346 /* Build configuration list for PBXNativeTarget "Crickos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCFE92F29268405003AE346 /* Debug */,
+				7DCFE93029268405003AE346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DCFE91829268403003AE346 /* Project object */;
+}
