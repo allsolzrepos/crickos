@@ -54,7 +54,9 @@ struct PlayerDetailView: View {
                 let _ = print(data!.description)
                 if(data!.isEmpty){return}
                 let tempObj = try? JSONDecoder().decode(SinglePlayerInfoModel.self, from: data!)
-        if tempObj != nil {let mplayer = tempObj?.data}
+        if let newPlayer = tempObj?.data {
+            mplayer = newPlayer
+        }
                 var _: String = ""
         }
 
