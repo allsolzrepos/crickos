@@ -1,6 +1,6 @@
 //
 //  TeamDetail.swift
-//  JokeAppusingAPI
+//  Crickos
 //
 //  Created by Agha Asad Hussain on 11/16/22.
 //
