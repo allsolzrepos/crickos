@@ -54,7 +54,7 @@ struct TeamDetail: View {
                 let _ = print(data.description)
                 if(data.isEmpty){return}
                 let tempObj = try JSONDecoder().decode(PlayerBriefInfoModel.self, from: data)
-                players.self = tempObj.data
+                players = tempObj.data
                 var _: String = ""
             }
             catch
