@@ -181,8 +181,9 @@ class PlayerBriefInfoAPI: ObservableObject {
         let _ = print(data!.description)
         if(data!.isEmpty){return}
         let tempObj = try? JSONDecoder().decode(SinglePlayerInfoModel.self, from: data!)
-        if tempObj != nil {let mplayer = tempObj?.data}
-        if tempObj != nil {let playerBriefInfo = tempObj?.data}
+        if let player = tempObj?.data {
+            playerBriefInfo = [player]
+        }
         var _: String = ""
 //        return true
         
